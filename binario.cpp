@@ -39,4 +39,13 @@ unsigned short int BitsBaixos(unsigned short int numero){
 	return numero & ((1 << 8) - 1);
 }
 
+unsigned short int AndBinario(unsigned short int numero1, unsigned short int numero2){
+
+	return numero1 & numero2;
+
+}
+
+unsigned short int OrBinario(unsigned short int numero1, unsigned short int numero2){
+	return numero1 & numero2;
+}
 
