@@ -13,8 +13,8 @@
 	unsigned short int DesligaBit(unsigned short int numero, int bit);
 	unsigned short int BitsAltos(unsigned short int numero);
 	unsigned short int BitsBaixos(unsigned short int numero);
-	//unsigned short int AndBinario(unsigned short int numero1, unsigned short int numero2);
-	//unsigned short int OrBinario(unsigned short int numero1, unsigned short int numero2);
+	unsigned short int AndBinario(unsigned short int numero1, unsigned short int numero2);
+	unsigned short int OrBinario(unsigned short int numero1, unsigned short int numero2);
 	bool TestarBit(unsigned short int numero, int bit);
 
 
