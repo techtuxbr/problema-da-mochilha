@@ -14,10 +14,10 @@ using namespace std;
 int main() {
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 
-
-
 	cout << CruzamentoPontoUnico(60504,25000) << endl;
 	cout << CruzamentoAritimetico(12329, 38054) << endl;
+	cout << MutacaoSimples(1259) << endl;
+	cout << MutacaoDupla(732) << endl;
 
 	return 0;
 }

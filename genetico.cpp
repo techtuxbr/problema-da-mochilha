@@ -15,5 +15,30 @@
 		return solucao1 & solucao2;
 	}
 
+	unsigned short int MutacaoSimples(unsigned short int solucao){
 
+		if(TestarBit(solucao,9)){
+			return DesligaBit(solucao,9);
+		}else{
+			return LigaBit(solucao,9);
+		}
+	}
+
+	unsigned short int MutacaoDupla(unsigned short int solucao){
+
+		if(TestarBit(solucao,3)){
+			solucao = DesligaBit(solucao, 3);
+		}else{
+			solucao = LigaBit(solucao, 3);
+		}
+
+		if(TestarBit(solucao,12)){
+			solucao = DesligaBit(solucao, 12);
+		}else{
+			solucao = LigaBit(solucao, 12);
+		}
+
+		return solucao;
+
+	}
 

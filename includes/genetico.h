@@ -11,5 +11,7 @@
 
 	unsigned short int CruzamentoPontoUnico(unsigned short int solucao1, unsigned short int solucao2);
 	unsigned short int CruzamentoAritimetico(unsigned short int solucao1, unsigned short int solucao2);
+	unsigned short int MutacaoSimples(unsigned short int solucao);
+	unsigned short int MutacaoDupla(unsigned short int solucao);
 
 #endif /* INCLUDES_GENETICO_H_ */
