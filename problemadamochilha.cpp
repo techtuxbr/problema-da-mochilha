@@ -7,15 +7,17 @@
 //============================================================================
 
 #include <iostream>
-#include "./includes/binario.h"
+#include "./includes/genetico.h"
 using namespace std;
+
 
 int main() {
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 
-	unsigned short int num = 1234;
 
-	cout << BitsAltos(num) << endl;
+
+	cout << CruzamentoPontoUnico(60504,25000) << endl;
+	cout << CruzamentoAritimetico(12329, 38054) << endl;
 
 	return 0;
 }

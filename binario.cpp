@@ -26,17 +26,12 @@ bool TestarBit(unsigned short int numero, int bit){
 
 unsigned short int BitsAltos(unsigned short int numero){
 
-	unsigned int mascara = 0xFF00;
-
-	numero = numero & mascara;
-
-	return numero >> 8;
-
+	return numero & 0xFF00;
 }
 
 unsigned short int BitsBaixos(unsigned short int numero){
 
-	return numero & ((1 << 8) - 1);
+	return numero & 0x00FF;
 }
 
 unsigned short int AndBinario(unsigned short int numero1, unsigned short int numero2){
